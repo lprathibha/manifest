@@ -9,7 +9,7 @@
 	  sync-j="4" />
 
   <remote  name="amazon"
-           fetch="git@github.com:lprathibha/"
+	  fetch="https://github.com/lprathibha/manifest.git"
 	   revision="test" />
 
 
