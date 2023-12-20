@@ -8,7 +8,7 @@
            remote="aosp"
 	  sync-j="4" />
 
-  <remote  name="amazon"
+  <remote  name="origin"
 	  fetch="https://github.com/lprathibha/manifest.git"
 	   revision="test" />
 
