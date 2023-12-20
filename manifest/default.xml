@@ -2,11 +2,16 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="main"
+  <default revision="refs/tags/android-14.0.0_r15"
            remote="aosp"
-           sync-j="4" />
+	  sync-j="4" />
+
+  <remote  name="amazon"
+           fetch="git@github.com:lprathibha/"
+	   revision="test" />
+
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
