@@ -10,7 +10,7 @@
 
   <remote  name="origin"
 	  fetch="https://github.com/lprathibha/manifest.git"
-	   revision="test" />
+	   revision="a14" />
 
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
